@@ -8,6 +8,7 @@ from flask import Blueprint, flash, g, redirect, render_template, request
 
 import libmfa
 
+
 mod_mfa = Blueprint('mod_mfa', __name__, template_folder='templates')
 
 
